@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+    <h4 id="Player1"></h4><span id="P1Score"></span>
+        <br><br>
+        <h4 id="Player2"></h4><span id="P2Score"></span>
+        <div class="container">
+            <center>
+                <h2 style="color: black;">Math Quiz</h2>
+                <h3 id="Qchance"></h3>
+                <h3 id="Achance"></h3>
+                <div id="output"></div>
+                <br><br>
+                <label><b style="color: rgb(68, 178, 34);">NUMBER 1</b></label>
+                <input placeholder="Type Number 1 Here" type="text" id="number1" class="form-control">
+                <br><br>
+                <label><b style="color: rgb(68, 178, 34);">NUMBER 2</b></label>
+                <input placeholder="Type Number 2 Here" type="text" id="number2" class="form-control">
+                <br><br>
+                <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+            </center>
+        </div>
+</body>
+<script src="gamepage.js"></script>
+</html>
